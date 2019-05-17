@@ -1,0 +1,12 @@
+${myPath##*\/}
+
+#${myPath  <-- from variable myPath
+#  ##   <-- greedy front trim
+#  *    <-- matches anything
+#  /    <-- until the last '/'
+#}
+ 
+#input:
+#/aaa/bbb/ccc/file.txt
+#output:
+#file.txt
