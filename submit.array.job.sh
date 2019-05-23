@@ -1,0 +1,1 @@
+sbatch --array=1-30 submit.sh
